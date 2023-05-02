@@ -1,0 +1,41 @@
+.review{
+    padding: 100px 0;
+}
+.review-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.review-item{
+    background-color: white;
+    padding: 20px;
+    border: black solid 1px;
+}
+.review__img{
+    width: 150px;
+    height: 150px;
+}
+.review__name{
+    padding-top: 10px;
+}
+@media(max-width: 767px){
+    .review-items{
+        display: block;
+    }
+
+    .review__img{
+        margin-left: 160px;
+    }
+
+    .review__name{
+        text-align: center;
+    }
+
+    .review__date {
+        text-align: center;
+    }
+
+    .review__text{
+        text-align: center;
+    }
+}

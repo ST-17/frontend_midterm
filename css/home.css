@@ -1,0 +1,13 @@
+@import url(sections-home/header.css);
+@import url(sections-home/main.css);
+@import url(sections-home/best.css);
+@import url(sections-home/genre.css);
+@import url(sections-home/footer.css);
+
+body{
+    background-color: #383E4C;
+    margin: 0 auto;
+}
+.trailer:link{
+    text-decoration: none;
+}

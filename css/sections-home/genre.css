@@ -1,0 +1,25 @@
+.genre{
+    color: white;
+    padding: 100px 0;
+}
+.genre-wrapper{
+    text-align: center;
+}
+.genre-items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px){
+    .btn{
+        width: 19%;
+        margin: 3px;
+    }
+}
+@media (max-width: 768px){
+    .btn{
+        width: 32%;
+    }
+}

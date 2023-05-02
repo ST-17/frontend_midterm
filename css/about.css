@@ -1,0 +1,8 @@
+@import url(sections-about/about-us.css);
+
+body{
+    margin: 0 auto;
+}
+.trailer:link{
+    text-decoration: none;
+}

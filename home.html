@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDU Cinema</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="nav">
+        <label for="toggle">&#9776;</label>
+    </div>
+    <input type="checkbox" id="toggle">
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a class="header__a" href="home.html">Homepage</a>
+                <a class="header__a" href="about.html">About us</a>
+                <a class="header__a" href="top.html">TOP 10</a>
+                <a class="header__a" href="review.html">Reviews</a>
+                <a class="header__a" href="contact.html">Contact us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <h1 class="main__title">SDU CINEMA</h1>
+                <p class="main__text">Welcome!</p>
+                <p class="main__text">This is a free website for SDU students, where you can choose the best movies from each film genre. If you want to take your mind off the studies and want to get a good impression, choose any movie and enjoy watching! Don't forget to stock up on goodies and create a cosy atmosphere around yourself. In addition, we have provided TOP 10 movies of all times from all genres. We guarantee that these movies will inspire you. Thanks for joining us! If you have any suggestions for improving our website, please, contact us and leave a review.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="best">
+        <div class="container">
+            <div class="best-wrapper">
+                <h1 class="best__title">The Best Movies of 2021</h1>
+                <div class="best-items">
+                    <div class="best-item">
+                        <img class="best__img" src="img/big.jpg" alt="">
+                        <h4 class="film-title">Pig, 2021</h4>
+                        <p>Pig is a 2021 American drama film co-written and directed by Michael Sarnoski in his directorial debut. It stars Nicolas Cage, Alex Wolff, and Adam Arkin, and follows a truffle forager whose beloved truffle-finding pig is stolen.</p>
+                        <h4>Rating: 8,9/10</h4>
+                        <a class="trailer" href="https://www.youtube.com/watch?v=-4nRpdONaAA">watch trailer</a>
+                    </div>
+                    <div class="best-item">
+                        <img class="best__img" src="C:\Users\Леново\OneDrive\Рабочий стол\SDU\Web\project 3\ind_proj\src\components\img\me.jpg" alt="">
+                        <h4 class="film-title">Zola, 2021</h4>
+                        <p>Zola is a 2021 American black comedy crime film directed by Janicza Bravo and written by Bravo and Jeremy O. Harris. It is based on a viral Twitter thread from 2015 by Aziah "Zola" King and the resulting Rolling Stone article "Zola Tells All: The Real Story Behind the Greatest Stripper Saga Ever Tweeted" by David Kushner.</p>
+                        <h4>Rating: 8,3/10</h4>
+                        <a class="trailer" href="https://www.youtube.com/watch?v=24KbaKlCDDI">watch trailer</a>
+                    </div>
+                    <div class="best-item">
+                        <img class="best__img" src="img/Annette.jpg" alt="">
+                        <h4 class="film-title">Annette, 2021</h4>
+                        <p>Annette is a 2021 musical psychological drama film directed by Leos Carax (in his English-language debut), and with a screenplay by Ron Mael and Russell Mael of Sparks, and Carax, from an original story, music and songs by the band.</p>
+                        <h4>Rating: 8,6/10</h4>
+                        <a class="trailer" href="https://www.youtube.com/watch?v=l_EaNpL16SU">watch trailer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/photo-1.jpg" alt="" class="carousel__img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/photo-2.jpg" alt="" class="carousel__img">
+          </div>
+          <div class="carousel-item">
+            <img src="img/photo-3.jpg" alt="" class="carousel__img">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <section class="genre">
+          <div class="container">
+              <div class="genre-wrapper">
+                  <h1 class="best__title">Choose you favorite movie genre</h1>
+                  <div class="genre-items">
+                      <a href="comedy.html" class="btn genre__a btn-light">Comedy</a>
+                      <a href="drama.html" class="btn genre__a btn-light">Drama</a>
+                      <a href="adventure.html" class="btn genre__a btn-light">Adventure</a>
+                      <a href="crime.html" class="btn genre__a btn-light">Crime</a>
+                      <a href="mystery.html" class="btn genre__a btn-light">Mystery</a>
+                      <a href="horror.html" class="btn genre__a btn-light">Horror</a>
+                      <a href="fantasy.html" class="btn genre__a btn-light">Fantasy</a>
+                      <a href="documentary.html" class="btn genre__a btn-light">Documentary</a>
+                      <a href="cartoon.html" class="btn genre__a btn-light">Cartoon</a>
+                      <a href="musical.html" class="btn genre__a btn-light">Musical</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-item">
+                  <img src="img/New_logo_SDU.jpg" alt="" class="footer__img">
+                  <p class="footer__text">"Take a break from study and enjoy the best movies"</p>
+              </div>
+              <div style="background-color: rgb(102, 97, 97); height: 1.5px; width: 100%; margin: 10px 0;"></div>
+              <div class="footer-item">
+                <div class="footer__social">
+                    <img src="img/insta.png" alt="" class="footer__icon">
+                    <p class="social__text">@sdu.cinema</p>
+                </div>
+                <div class="footer__social">
+                    <img src="img/vk.png" alt="" class="footer__icon">
+                    <p class="social__text">@sducinema.vk</p>
+                </div>
+                <div class="footer__social">
+                    <img src="img/telega.png" alt="" class="footer__icon">
+                    <p class="social__text">@TheBestCinema</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
